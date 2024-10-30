@@ -2,5 +2,18 @@
   "name": "Marcoinroni",
   "symbol": "MARC",
   "description": "Mark Cuban Coin",
-  "image": "https://raw.githubusercontent.com/midniteclub/marcoinroni/main/markcoinroni.png"  // Replace with your logo's URL
+  "image": "https://raw.githubusercontent.com/midniteclub/marcoinroni/main/markcoinroni.png",  // URL to your token’s logo
+  "attributes": [
+    { "trait_type": "Type", "value": "Memecoin" },
+    { "trait_type": "Network", "value": "Solana" }
+  ],
+  "properties": {
+    "category": "image",
+    "files": [
+      {
+        "uri": "https://raw.githubusercontent.com/midniteclub/marcoinroni/main/markcoinroni.png",
+        "type": "image/png"
+      }
+    ]
+  }
 }
